@@ -5,11 +5,13 @@ dist
 node_modules
 .DS_Store
 
+# Local env overrides (.env itself is committed: VITE_USER_ID is not a secret)
+.env.local
+.env.*.local
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 raw_reports
 reports
-cypress/screenshots
-cypress/videos
