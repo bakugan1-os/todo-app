@@ -84,6 +84,3 @@ src/
 All server state lives in `App.tsx`; the components below it are presentational
 and receive data and callbacks as props.
 
-## License
-
-[GPL-3.0](./LICENSE)
