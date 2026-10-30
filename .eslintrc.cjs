@@ -102,7 +102,7 @@ module.exports = {
     },
     ],
   },
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts', 'src/vite-env.d.ts'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts'],
   settings: {
     react: {
       version: 'detect',
